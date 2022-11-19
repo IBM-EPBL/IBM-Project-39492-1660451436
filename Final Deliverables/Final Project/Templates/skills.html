@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPARTANS.com</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="{{url_for('home')}}">Home</a></li>
+               <li><a href="{{url_for('register')}}">Register</a></li>
+               <li><a href="{{url_for('login')}}">Login</a></li> 
+            </ul>
+        </nav>
+    </header>
+    <section id="sss1">
+        <center><h1 class="two" ><span style="color:rgb(20, 20, 70);background-color: whitesmoke;margin-left: 30px;padding-left: 20px;padding-right: 20px;">SPARTANS.com</span></h1></center>
+    </section>
+    <br><br>
+    <section id="courses">
+		
+		<center><h1>Our Courses</h1></center>
+
+		<div class="course">
+            <img src="{{url_for('static',filename='img/ai.jfif')}}"alt="skill 1">			
+			
+
+            <center><h2><a href="https://www.simplilearn.com/pgp-ai-machine-learning-certification-training-course?utm_source=google&utm_medium=cpc&utm_term=artificial%20intelligence%20training&utm_content=15754765405-131338765323-627658910611&utm_device=c&utm_campaign=Search-DataCluster-PG-DSAI-AIML-CAIML-Purdue-AbsoluteBroadKeywords-IN-Main-AllDevice-adgroup-AI-Training-ABSOLUTE-BROADS&gclid=CjwKCAiAmuKbBhA2EiwAxQnt7zVHgLNIM-Uxb6jXWRTEjq0olbs1NylFkpwljvVHwRED3Jse1dxC1hoCJNoQAvD_BwE">Artificial Intelligence</a></h2></center>
+
+			<center><h6>This course was designed for students starting out Atutomations to get started........</h6></center>
+
+			
+
+		</div>
+
+		<div class="course2">
+            <img src="{{url_for('static',filename='img/course-02.jpg')}}"alt="skill 2">
+			
+
+			<center><h2><a href="https://www.w3schools.com/css/">CSS3 For Beginners</a></h2></center>
+
+			<center><h6>This course was designed for students starting out in Front End Web Development wanting to learn CSS3 to get started........</h6></center>
+
+			
+
+		</div>
+
+		<div class="course3">
+			
+			<img src="{{url_for('static',filename='img/course-03.jpg')}}"alt="skill 3">
+
+			<center><h2><a href="https://www.w3schools.com/js/">JavaScript For Beginners</a></h2></center>
+
+			<center><h6>This course was designed for students starting out in Front End Web Development wanting to learn JavaScript to get started........</h6></center>
+
+		
+
+		</div>
+
+	</section>
+
+</body>
+</html>
